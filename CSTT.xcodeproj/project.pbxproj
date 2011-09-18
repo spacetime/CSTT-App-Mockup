@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2A90EE314265204005E497C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A90EE214265204005E497C /* UIKit.framework */; };
+		F2A90EE514265204005E497C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A90EE414265204005E497C /* Foundation.framework */; };
+		F2A90EE714265204005E497C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A90EE614265204005E497C /* CoreGraphics.framework */; };
+		F2A90EED14265204005E497C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2A90EEB14265204005E497C /* InfoPlist.strings */; };
+		F2A90EF014265204005E497C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A90EEF14265204005E497C /* main.m */; };
+		F2A90EF314265204005E497C /* CSTTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A90EF214265204005E497C /* CSTTAppDelegate.m */; };
+		F2A90EF614265204005E497C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A90EF414265204005E497C /* MainWindow.xib */; };
+		F2A90EF914265204005E497C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A90EF814265204005E497C /* RootViewController.m */; };
+		F2A90EFC14265204005E497C /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A90EFA14265204005E497C /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2A90EDE14265204005E497C /* CSTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A90EE214265204005E497C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2A90EE414265204005E497C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2A90EE614265204005E497C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2A90EEA14265204005E497C /* CSTT-Info.plist */ = {isa = PBXFileReference; path = "CSTT-Info.plist"; sourceTree = "<group>"; };
+		F2A90EEC14265204005E497C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2A90EEE14265204005E497C /* CSTT-Prefix.pch */ = {isa = PBXFileReference; path = "CSTT-Prefix.pch"; sourceTree = "<group>"; };
+		F2A90EEF14265204005E497C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2A90EF114265204005E497C /* CSTTAppDelegate.h */ = {isa = PBXFileReference; path = CSTTAppDelegate.h; sourceTree = "<group>"; };
+		F2A90EF214265204005E497C /* CSTTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSTTAppDelegate.m; sourceTree = "<group>"; };
+		F2A90EF514265204005E497C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F2A90EF714265204005E497C /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		F2A90EF814265204005E497C /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F2A90EFB14265204005E497C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2A90EDB14265204005E497C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A90EE314265204005E497C /* UIKit.framework in Frameworks */,
+				F2A90EE514265204005E497C /* Foundation.framework in Frameworks */,
+				F2A90EE714265204005E497C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2A90ED314265204005E497C = {
+			isa = PBXGroup;
+			children = (
+				F2A90EE814265204005E497C /* CSTT */,
+				F2A90EE114265204005E497C /* Frameworks */,
+				F2A90EDF14265204005E497C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2A90EDF14265204005E497C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2A90EDE14265204005E497C /* CSTT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2A90EE114265204005E497C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2A90EE214265204005E497C /* UIKit.framework */,
+				F2A90EE414265204005E497C /* Foundation.framework */,
+				F2A90EE614265204005E497C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2A90EE814265204005E497C /* CSTT */ = {
+			isa = PBXGroup;
+			children = (
+				F2A90EF114265204005E497C /* CSTTAppDelegate.h */,
+				F2A90EF214265204005E497C /* CSTTAppDelegate.m */,
+				F2A90EF414265204005E497C /* MainWindow.xib */,
+				F2A90EF714265204005E497C /* RootViewController.h */,
+				F2A90EF814265204005E497C /* RootViewController.m */,
+				F2A90EFA14265204005E497C /* RootViewController.xib */,
+				F2A90EE914265204005E497C /* Supporting Files */,
+			);
+			path = CSTT;
+			sourceTree = "<group>";
+		};
+		F2A90EE914265204005E497C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2A90EEA14265204005E497C /* CSTT-Info.plist */,
+				F2A90EEB14265204005E497C /* InfoPlist.strings */,
+				F2A90EEE14265204005E497C /* CSTT-Prefix.pch */,
+				F2A90EEF14265204005E497C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2A90EDD14265204005E497C /* CSTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2A90EFF14265204005E497C /* Build configuration list for PBXNativeTarget "CSTT" */;
+			buildPhases = (
+				F2A90EDA14265204005E497C /* Sources */,
+				F2A90EDB14265204005E497C /* Frameworks */,
+				F2A90EDC14265204005E497C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSTT;
+			productName = CSTT;
+			productReference = F2A90EDE14265204005E497C /* CSTT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2A90ED514265204005E497C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F2A90ED814265204005E497C /* Build configuration list for PBXProject "CSTT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2A90ED314265204005E497C;
+			productRefGroup = F2A90EDF14265204005E497C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2A90EDD14265204005E497C /* CSTT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2A90EDC14265204005E497C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A90EED14265204005E497C /* InfoPlist.strings in Resources */,
+				F2A90EF614265204005E497C /* MainWindow.xib in Resources */,
+				F2A90EFC14265204005E497C /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2A90EDA14265204005E497C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A90EF014265204005E497C /* main.m in Sources */,
+				F2A90EF314265204005E497C /* CSTTAppDelegate.m in Sources */,
+				F2A90EF914265204005E497C /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2A90EEB14265204005E497C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2A90EEC14265204005E497C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2A90EF414265204005E497C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2A90EF514265204005E497C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F2A90EFA14265204005E497C /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2A90EFB14265204005E497C /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2A90EFD14265204005E497C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2A90EFE14265204005E497C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F2A90F0014265204005E497C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSTT/CSTT-Prefix.pch";
+				INFOPLIST_FILE = "CSTT/CSTT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2A90F0114265204005E497C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSTT/CSTT-Prefix.pch";
+				INFOPLIST_FILE = "CSTT/CSTT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2A90ED814265204005E497C /* Build configuration list for PBXProject "CSTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2A90EFD14265204005E497C /* Debug */,
+				F2A90EFE14265204005E497C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2A90EFF14265204005E497C /* Build configuration list for PBXNativeTarget "CSTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2A90F0014265204005E497C /* Debug */,
+				F2A90F0114265204005E497C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2A90ED514265204005E497C /* Project object */;
+}
