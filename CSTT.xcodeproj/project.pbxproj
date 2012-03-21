@@ -23,6 +23,9 @@
 		F2A90F0B1426522D005E497C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A90F0A1426522D005E497C /* Default.png */; };
 		F2A90F3F142654E6005E497C /* ListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A90F3D142654E6005E497C /* ListingViewController.m */; };
 		F2A90F40142654E6005E497C /* ListingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A90F3E142654E6005E497C /* ListingViewController.xib */; };
+		F2A90F4414265633005E497C /* DefinitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A90F4214265633005E497C /* DefinitionView.m */; };
+		F2A90F4514265633005E497C /* DefinitionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A90F4314265633005E497C /* DefinitionView.xib */; };
+		F2A90F471426612C005E497C /* speaker.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A90F461426612C005E497C /* speaker.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,10 @@
 		F2A90F3C142654E6005E497C /* ListingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListingViewController.h; sourceTree = "<group>"; };
 		F2A90F3D142654E6005E497C /* ListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListingViewController.m; sourceTree = "<group>"; };
 		F2A90F3E142654E6005E497C /* ListingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListingViewController.xib; sourceTree = "<group>"; };
+		F2A90F4114265633005E497C /* DefinitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefinitionView.h; sourceTree = "<group>"; };
+		F2A90F4214265633005E497C /* DefinitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefinitionView.m; sourceTree = "<group>"; };
+		F2A90F4314265633005E497C /* DefinitionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefinitionView.xib; sourceTree = "<group>"; };
+		F2A90F461426612C005E497C /* speaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +114,9 @@
 				F2A90F3C142654E6005E497C /* ListingViewController.h */,
 				F2A90F3D142654E6005E497C /* ListingViewController.m */,
 				F2A90F3E142654E6005E497C /* ListingViewController.xib */,
+				F2A90F4114265633005E497C /* DefinitionView.h */,
+				F2A90F4214265633005E497C /* DefinitionView.m */,
+				F2A90F4314265633005E497C /* DefinitionView.xib */,
 			);
 			path = CSTT;
 			sourceTree = "<group>";
@@ -114,6 +124,7 @@
 		F2A90EE914265204005E497C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F2A90F461426612C005E497C /* speaker.png */,
 				F2A90F0214265215005E497C /* icon.png */,
 				F2A90F0314265215005E497C /* splash.png */,
 				F2A90EEA14265204005E497C /* CSTT-Info.plist */,
@@ -180,6 +191,8 @@
 				F2A90F0914265229005E497C /* Default@2x.png in Resources */,
 				F2A90F0B1426522D005E497C /* Default.png in Resources */,
 				F2A90F40142654E6005E497C /* ListingViewController.xib in Resources */,
+				F2A90F4514265633005E497C /* DefinitionView.xib in Resources */,
+				F2A90F471426612C005E497C /* speaker.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +207,7 @@
 				F2A90EF314265204005E497C /* CSTTAppDelegate.m in Sources */,
 				F2A90EF914265204005E497C /* RootViewController.m in Sources */,
 				F2A90F3F142654E6005E497C /* ListingViewController.m in Sources */,
+				F2A90F4414265633005E497C /* DefinitionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +245,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = Rishab;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = Rishab;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -248,7 +263,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = Rishab;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = Rishab;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -268,6 +284,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CSTT/CSTT-Prefix.pch";
 				INFOPLIST_FILE = "CSTT/CSTT-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -281,6 +298,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CSTT/CSTT-Prefix.pch";
 				INFOPLIST_FILE = "CSTT/CSTT-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
